@@ -13,16 +13,16 @@
           li 
             .lista-ol--cuadro__vineta
               span 1
-            | Comprender los elementos (involucrados con los recursos disponibles)
+            | Comprender los elementos (involucrados con los recursos disponibles).
           li 
             .lista-ol--cuadro__vineta
               span 2
-            | El costo de elaboración (o adquisición de los bienes o servicios que se esperan vender)
+            | El costo de elaboración (o adquisición de los bienes o servicios que se esperan vender).
 
           li 
             .lista-ol--cuadro__vineta
               span 3
-            | El precio de venta (que la gente está dispuesta a pagar para adquirirlos)
+            | El precio de venta (que la gente está dispuesta a pagar para adquirirlos).
         p Es allí donde la contabilidad surge como una herramienta que permite registrar, medir y llevar control de todos estos elementos que pueden traducirse en dinero. Desde el capital inicial, la contabilidad ofrece el seguimiento sobre cómo se obtienen los recursos y en qué se destinan. Es gracias a ella que las empresas comprenden cuántos bienes poseen, cuántas deudas acarrean y cuál es el excedente que obtienen tras la operación. 
       .col-lg-5
         img(src='@/assets/curso/tema2/img1.png', alt='Texto que describa la imagen')
@@ -95,7 +95,7 @@
                 .col.mb-3.mb-sm-0
                   h5.mb-1 Para conocer el Decreto 2650 de 1993, lo invitamos a visitar el siguiente enlace: 
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="('https://incp.org.co/Site/productosyservicios/legislativa/2650.htm')" target="_blank")
                     span Ir a sitio web
                     i.fas.fa-link
     separador
@@ -230,7 +230,7 @@
               p Representan aquellas salidas de efectivo o disminución de activos necesarias para mantener la empresa operativa. Incluyen rubros de diversos tipos, como los son los pagos a los empleados, los intereses por endeudamiento o el costo de producción de los bienes.
             .col-lg-2
               img(src='@/assets/curso/tema2/ico6.svg', alt='Texto que describa la imagen')
-    p Una vez identificada la categoría a la cual corresponde el hecho económico a registrar, es importante aplicar el pilar fundamental de la dinámica contable: la partida doble. Esta puede resumirse en que todo registro debe tener una contraparte opuesta que mantenga una especie de equilibrio en la información financiera. Para cumplir con este sistema de contrapeso hay que establecer dos tipos de movimientos opuestos: el débito y el crédito, también conocidos como el debe y el haber.
+    p Una vez identificada la categoría a la cual corresponde el hecho económico a registrar, es importante aplicar el pilar fundamental de la dinámica contable: la partida doble. Esta puede resumirse en que todo registro debe tener una contraparte opuesta que mantenga una especie de equilibrio en la información financiera. Para cumplir con este sistema de contrapeso hay que establecer dos tipos de movimientos opuestos: el débito y el crédito, también conocidos como <strong>el debe y el haber.</strong>
     p Cada cuenta contable tendrá una naturaleza, en la que se verá incrementada con uno de estos movimientos y reducida con el opuesto. Para facilitar este aprendizaje, se presenta la naturaleza de las cuentas a nivel de clase, entendiendo que todos los subgrupos que pertenezcan a ella, por regla general siguen esta misma naturaleza:
     .row.justify-content-center.mt-4
       .col-lg-10
@@ -275,7 +275,7 @@
     p.mt-4 Por norma general, las cuentas del activo (todas las que su código inicia con el número 1, se ven incrementadas con los movimientos de naturaleza débito, mientras que los movimientos crédito las disminuyen.
     .row
       .col-lg-6
-        p suponga que una persona toma $100 dólares (USD) disponibles de la caja general y los consigna en la cuenta bancaria. El registro contable se presentaría de la siguiente forma:
+        p <strong>Caso práctico:</strong> suponga que una persona toma $100 dólares (USD) disponibles de la caja general y los consigna en la cuenta bancaria. El registro contable se presentaría de la siguiente forma:
         .titulo-sexto.color-acento-botones
           h5 Tabla 4 
           span Ejemplo de dinámica contable
@@ -328,7 +328,7 @@
     ol.lista-ol--cuadro
       li 
         .lista-ol--cuadro__vineta
-          span 2
+          span 1
         p <strong>Los del registro contable:</strong>  suelen ser elaborados por la misma administración.<br>Si bien la dinámica contable es la misma sin importar las operaciones que se esperen registrar, los documentos que detallen el registro pueden variar según la naturaleza del hecho.<br><br> Algunos de ellos son:
     .row.justify-content-center
       .col-lg-10
@@ -401,7 +401,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema2/img25.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Se consideran microempresas aquellas personas naturales o jurídicas que posean una planta de personal inferior a 10 trabajadores, activos totales inferiores a 500 salarios mínimos mensuales legales vigentes – SMMLV y tener ingresos menores a 6.000 SMMLV. Incumplir con cualquiera de los requisitos anteriores, hará que sean reclasificadas en el grupo 2 de pequeñas y medianas empresas (Pyme)
+            p.mb-0 Se consideran microempresas aquellas personas naturales o jurídicas que posean una planta de personal inferior a 10 trabajadores, activos totales inferiores a 500 salarios mínimos mensuales legales vigentes – SMMLV y tener ingresos menores a 6.000 SMMLV. Incumplir con cualquiera de los requisitos anteriores, hará que sean reclasificadas en el grupo 2 de pequeñas y medianas empresas (Pyme).
         p.mt-5 En Colombia, según el Ministerio del Trabajo (2019) y de acuerdo con las cifras compartidas por el Departamento Administrativo Nacional de Estadística, más del 90% del sector productivo nacional está compuesto por micros, pequeñas y medianas empresas, las cuales deben aplicar los marcos normativos de los grupos 2 y 3 descritos anteriormente.
         separador
     #t_2_7.titulo-segundo.color-acento-contenido

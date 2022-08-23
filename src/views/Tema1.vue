@@ -133,7 +133,7 @@
                 | Capital inicial (de la sociedad): $500.000.
               li 
                 i.fas.fa-check
-                | Participación (responsabilidad y poder de decisión): 20%
+                | Participación (responsabilidad y poder de decisión): 20%.
     .row.justify-content-center.mt-5
       .col-lg-8
         .cajon.color-acento-contenido.p-4.mb-4

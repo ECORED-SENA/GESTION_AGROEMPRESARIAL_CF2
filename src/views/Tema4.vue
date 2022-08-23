@@ -77,7 +77,7 @@ export default {
       {
         titulo: 'Sujeto activo',
         texto:
-          'Agente recaudador del impuesto. Existen tributos de orden municipal como el industria y comercio o el predial, donde el sujeto activo es el municipio, otros de carácter departamental como el impuesto de vehículos, y otros de carácter nacional como la renta o el IVA. A nivel nacional, es la Dirección de Impuestos y Aduanas Nacionales – DIAN, quien se encarga de gestionar esta labor en la mayoría de los tributos',
+          'Agente recaudador del impuesto. Existen tributos de orden municipal como el industria y comercio o el predial, donde el sujeto activo es el municipio, otros de carácter departamental como el impuesto de vehículos, y otros de carácter nacional como la renta o el IVA. A nivel nacional, es la Dirección de Impuestos y Aduanas Nacionales – DIAN, quien se encarga de gestionar esta labor en la mayoría de los tributos.',
         imagen: require('@/assets/curso/tema4/img3.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },

@@ -50,7 +50,7 @@
       .col-lg-6
         img(src='@/assets/curso/tema3/img2.png', alt='Texto que describa la imagen')
     p.mt-5 Todos ellos complementados de forma integral por las revelaciones que aportan información cualitativa que enriquece el análisis.
-    p En el caso de las microempresas, sólo se exigen los dos primeros, situación que no resulta descabellada puesto que los cambios en el patrimonio y flujos de efectivo pueden ser elaborados a partir de la medición de variaciones de estos. Por ello, para simplificar la gestión administrativa, solo se les obliga la preparación de aquellos que contienen la información base para los demás.
+    p En el caso de las <strong>microempresas</strong>, sólo se exigen los dos primeros, situación que no resulta descabellada puesto que los cambios en el patrimonio y flujos de efectivo pueden ser elaborados a partir de la medición de variaciones de estos. Por ello, para simplificar la gestión administrativa, solo se les obliga la preparación de aquellos que contienen la información base para los demás.
     p Observemos los diversos tipos de estados financieros y una breve definición de cada uno de ellos.
     .row.justify-content-center
       .col-lg-6
@@ -100,7 +100,7 @@
         .lista-ol--cuadro__vineta
           span 
         | Estado de situación financiera
-    p Definamos Situación Financiera como un consolidado de bienes y deudas de la organización. Así, se presenta a nivel de detalle los elementos que componen sus activos, pasivos y patrimonio. En este punto toma especial relevancia la dinámica de la partida doble, puesto que este estado es en esencia el cumplimiento de la igualdad que se evidencia en la siguiente ecuación:
+    p Definamos <strong>Situación Financiera</strong> como un consolidado de bienes y deudas de la organización. Así, se presenta a nivel de detalle los elementos que componen sus activos, pasivos y patrimonio. En este punto toma especial relevancia la dinámica de la partida doble, puesto que este estado es en esencia el cumplimiento de la igualdad que se evidencia en la siguiente ecuación:
     .row.justify-content-center.mt-5
       .col-lg-4.colort3.p-3
         .row.justify-content-center
