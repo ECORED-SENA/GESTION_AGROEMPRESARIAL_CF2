@@ -7,23 +7,25 @@
       .titulo-principal__numero
         span 1
       h1 Empresas
-    p Podemos definir el concepto de ‘empresa’ como: un organismo individual económico, porque interactúa con otros y con el ecosistema. Una empresa puede tomar muchas formas comerciales o jurídicas, pero sólo se considera como empresa si los elementos que la componen se enfocan a un mismo objetivo: suplir una necesidad de un mercado en específico y recibir una contraprestación para ella.
-    img(src='@/assets/curso/tema1/img1.png', alt='Texto que describa la imagen')
-    p.mt-4 Las empresas buscan aportar al ecosistema económico y, como recompensa, generar mayor valor para sus propietarios. Por ejemplo, si en un pueblo no hay tiendas de zapatos, aquel que invierta lo necesario para ofrecer este tipo de productos le otorgará la posibilidad de adquirir bienes de interés a sus habitantes y, a cambio, sus clientes le pagarán con recursos que generarán utilidades.
-    .row.justify-content-center
-      .col-lg-8.p-4.colort1
-        p.text-center Una empresa resalta como agente protagónico en el mercado, porque además de aportar sus bienes o servicios, también genera empleo, suple necesidades y puede atraer más comercio.
-    .row.justify-content-center.mt-4
-      .col-lg-10
-        .row
-          .col-lg-6
-            p Existen zonas exclusivamente comerciales debido al éxito de algunos negocios, y donde otros luego se unen esperando algo de esa prosperidad. Este fenómeno valoriza los terrenos, los hace más productivos y puede llevar a acrecentar los mercados locales gracias a la inversión de personas foráneas que vean oportunidades allí.
-            p El Estado también se beneficia de estos organismos, debido a que existen impuestos con los que el gobierno obtiene recursos suficientes para invertir en proyectos de inversión social, infraestructura y otros. Al final, los impuestos que pagan las empresas se pueden transformar en hospitales, escuelas o parques que benefician a toda la población.
-          .col-lg-6
-            img(src='@/assets/curso/tema1/img2.png', alt='Texto que describa la imagen')
-    p.mt-4 Muchos conceptos relacionados con las empresas están definidos en las leyes expedidas en Colombia. En este caso, veamos el código de comercio, que compila las normas relativas a la empresa y sus actividades mercantiles:
-    img(src='@/assets/curso/tema1/img3.png', alt='Texto que describa la imagen')
-    p.mt-4 El Estado también se beneficia de estos organismos, debido a que existen impuestos con los que el gobierno obtiene recursos suficientes para invertir en proyectos de inversión social, infraestructura y otros. Al final, los impuestos que pagan las empresas se pueden transformar en hospitales, escuelas o parques que benefician a toda la población.
+    .row.bg1
+      p Podemos definir el concepto de ‘empresa’ como: un organismo individual económico, porque interactúa con otros y con el ecosistema. Una empresa puede tomar muchas formas comerciales o jurídicas, pero sólo se considera como empresa si los elementos que la componen se enfocan a un mismo objetivo: suplir una necesidad de un mercado en específico y recibir una contraprestación para ella.
+      img(data-aos="zoom-in")(src='@/assets/curso/tema1/img1.png', alt='Texto que describa la imagen')
+      p.mt-4 Las empresas buscan aportar al ecosistema económico y, como recompensa, generar mayor valor para sus propietarios. Por ejemplo, si en un pueblo no hay tiendas de zapatos, aquel que invierta lo necesario para ofrecer este tipo de productos le otorgará la posibilidad de adquirir bienes de interés a sus habitantes y, a cambio, sus clientes le pagarán con recursos que generarán utilidades.
+      .row.justify-content-center
+        .col-lg-8.p-4.colort1
+          p.text-center Una empresa resalta como agente protagónico en el mercado, porque además de aportar sus bienes o servicios, también genera empleo, suple necesidades y puede atraer más comercio.
+      .row.justify-content-center.mt-4
+        .col-lg-10
+          .row
+            .col-lg-6
+              p Existen zonas exclusivamente comerciales debido al éxito de algunos negocios, y donde otros luego se unen esperando algo de esa prosperidad. Este fenómeno valoriza los terrenos, los hace más productivos y puede llevar a acrecentar los mercados locales gracias a la inversión de personas foráneas que vean oportunidades allí.
+              p El Estado también se beneficia de estos organismos, debido a que existen impuestos con los que el gobierno obtiene recursos suficientes para invertir en proyectos de inversión social, infraestructura y otros. Al final, los impuestos que pagan las empresas se pueden transformar en hospitales, escuelas o parques que benefician a toda la población.
+            .col-lg-6(data-aos="fade-left")
+              img(src='@/assets/curso/tema1/img2.png', alt='Texto que describa la imagen')
+      p.mt-4 Muchos conceptos relacionados con las empresas están definidos en las leyes expedidas en Colombia. En este caso, veamos el código de comercio, que compila las normas relativas a la empresa y sus actividades mercantiles:
+      img(data-aos="zoom-in")(src='@/assets/curso/tema1/img3.png', alt='Texto que describa la imagen')
+      p.mt-4 El Estado también se beneficia de estos organismos, debido a que existen impuestos con los que el gobierno obtiene recursos suficientes para invertir en proyectos de inversión social, infraestructura y otros. Al final, los impuestos que pagan las empresas se pueden transformar en hospitales, escuelas o parques que benefician a toda la población.
+      
     p Muchos conceptos relacionados con las empresas están definidos en las leyes expedidas en Colombia. En este caso, veamos el código de comercio, que compila las normas relativas a la empresa y sus actividades mercantiles:
     .col-lg-12.mt-4
       .cajon.color-acento-contenido.p-4.mb-4
@@ -32,7 +34,7 @@
             .row
               .col-lg-2.tam1
                 img(src='@/assets/curso/tema1/img3.svg', alt='Texto que describa la imagen')
-              .col-lg-10
+              .col-lg-10.mt-2
                 h5 ARTÍCULO 25. (EMPRESA - CONCEPTO).
                 p Se entenderá por empresa toda actividad económica organizada para la producción, transformación, circulación, administración o custodia de bienes, o para la prestación de servicios. Dicha actividad se realizará a través de uno o más establecimientos de comercio (Código de Comercio, 1971, Artículo 25).
     separador
@@ -42,11 +44,15 @@
     .titulo-sexto.color-acento-botones.mt-5
       h5 Figura 1
       span  Clasificación de empresas
-    img(src='@/assets/curso/tema1/img4.svg', alt='Texto que describa la imagen')
+    img(data-aos="zoom-in")(src='@/assets/curso/tema1/img4.svg', alt='Texto que describa la imagen')
     p.mt-5 Veamos con más detalle esta clasificación en el siguiente recurso.
-    figure.mb-5
+    figure.mb-5(data-aos="zoom-in")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/khgdhpM6zx0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    p.mt-5 Profundice en los aspectos clave de las clasificación de las empresas y la conformación de las sociedades comerciales y del orden empresarial; observe con atención el vídeo que se muestra enseguida. Procure llevar registro de lo más destacado en su libreta personal de apuntes. ¡Adelante!
+    figure.mb-5(data-aos="zoom-in")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/aOUKzNrTLPE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)    
     p Como se mencionó anteriormente, la ley 590 del 2000 clasificó las organizaciones en Colombia y el decreto 957 de 2019 reglamentó de forma este aspecto. La siguiente Tabla resume la información allí contenida, y ofrece un acercamiento al modelo de clasificación de empresas más utilizado por el gobierno nacional:
     .titulo-sexto.color-acento-botones.mt-5
       h5 Tabla 1
@@ -55,7 +61,7 @@
       table
         thead
           tr
-            th.tamta Ingresos en UVT (unidades de valor tributario) de actividades ordinarias según sector económico
+            <th colspan="4"> Ingresos en UVT (unidades de valor tributario) de actividades ordinarias según sector económico</th>
 
         tbody
           tr
@@ -107,16 +113,16 @@
               i.fas.fa-check
               | Actividad económica. 
   
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         img(src='@/assets/curso/tema1/img5.png', alt='Texto que describa la imagen')
     p.mt-5 Uno de los datos más relevantes será su nombre comercial, que a diferencia de un negocio informal, registrándose en la cámara tendrá exclusividad, por lo que ninguna otra persona podrá hacer uso de este nombre. Para ello las cámaras de comercio de todo el país cuentan con bases de datos que contienen todos los nombres registrados, garantizando que otras personas no se aprovecharán del buen nombre de un negocio para explotarlo en otros lugares.
     .row.justify-content-center
       .col-lg-10
         .row
-          .col-lg-6
+          .col-lg-6(data-aos="fade-right")
             img(src='@/assets/curso/tema1/img6.png', alt='Texto que describa la imagen')
 
-          .col-lg-6
+          .col-lg-6.mt-2
             p En el caso de las sociedades, se debe formalizar su constitución, que podría asimilarse a su nacimiento.
             p Para ello, las personas que deciden emprender el negocio deberán reunirse y diseñar un acta de constitución, donde manifiesten estar de acuerdo en la creación de una empresa en la cual tendrán una participación proporcional a su aporte inicial. Así, por ejemplo:
             ul.lista-ul--color
@@ -139,7 +145,7 @@
         .cajon.color-acento-contenido.p-4.mb-4
           h4 Nota
           p los porcentajes y participaciones pueden variar en función de aquellos socios que aporten más o menos.
-    .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
+    .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5(data-aos="fade-up-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img7.png')})`}"
       )
@@ -168,9 +174,13 @@ export default {
 
 <style lang="sass">
 .cajon.color-acento-contenido
-  background-color: #ECEDDA
+  background-color: #F3F4DB
 .bloque-texto-g__img
   left: 50%
+  @media screen and ( max-width: 420px)
+    left: 0%
 .bloque-texto-g__texto
   right: 40%
+  @media screen and ( max-width: 420px)
+    right: 0%
 </style>

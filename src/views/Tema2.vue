@@ -24,7 +24,7 @@
               span 3
             | El precio de venta (que la gente está dispuesta a pagar para adquirirlos).
         p Es allí donde la contabilidad surge como una herramienta que permite registrar, medir y llevar control de todos estos elementos que pueden traducirse en dinero. Desde el capital inicial, la contabilidad ofrece el seguimiento sobre cómo se obtienen los recursos y en qué se destinan. Es gracias a ella que las empresas comprenden cuántos bienes poseen, cuántas deudas acarrean y cuál es el excedente que obtienen tras la operación. 
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         img(src='@/assets/curso/tema2/img1.png', alt='Texto que describa la imagen')
     .row.justify-content-center.mt-4
       .col-lg-10.colort2.p-3
@@ -38,7 +38,7 @@
       h5 Figura 2
       span   Mecánica de las cuentas contables
     .row.justify-content-center
-      .col-lg-6
+      .col-lg-6(data-aos="fade-up-right")
         img(src='@/assets/curso/tema2/img2.svg', alt='Texto que describa la imagen')
     p.mt-4 Como se observa, a mayor categoría, más cuentas se encuentran involucradas, de esta forma el nivel de detalle puede ser tan preciso como cada usuario de la información lo requiera. Ahora, la estructura dispuesta cumple con una jerarquía, la cual se presenta a continuación a través de un ejemplo.
     .row.justify-content-center
@@ -80,9 +80,10 @@
     .row
       .col-lg-7
         p Una vez se tiene clara la metodología en la que se hace uso de las cuentas contables, es fundamental entender el uso de la codificación, que es: el uso de números para identificar cada rubro.
-        p La codificación (con números) es necesaria porque es mucho más práctico identificar la categoría superior haciendo uso de caracteres numéricos, en lugar de alfabéticos (letras). Entendiendo la mecánica descrita anteriormente, cualquier persona sin conocimientos muy profundos de contabilidad podrá comprender que la cuenta 1435, pertenece al grupo 14 de la clase 1.
-        p El listado códigos aplicables para cada cuenta contable en Colombia fue presentado en el decreto 2650 de 1993, y con él se buscaba la estandarización de los códigos, de tal forma que el código signifique lo mismo en todas las empresas sin importar su actividad o ubicación geográfica en el país. Si bien es cierto, este decreto ya se encuentra derogado, los softwares de contabilidad suelen incluirlo a modo de referencia, y se recomienda su uso, porque a pesar de las modificaciones que ha sufrido la legislación, este sistema sigue siendo de gran utilidad y se considera uno de los pilares de la contabilidad en Colombia.
-      .col-lg-5
+        .row.bgaq.p-2
+          p La codificación (con números) es necesaria porque es mucho más práctico identificar la categoría superior haciendo uso de caracteres numéricos, en lugar de alfabéticos (letras). Entendiendo la mecánica descrita anteriormente, cualquier persona sin conocimientos muy profundos de contabilidad podrá comprender que la cuenta 1435, pertenece al grupo 14 de la clase 1.
+        p.mt-2 El listado códigos aplicables para cada cuenta contable en Colombia fue presentado en el decreto 2650 de 1993, y con él se buscaba la estandarización de los códigos, de tal forma que el código signifique lo mismo en todas las empresas sin importar su actividad o ubicación geográfica en el país. Si bien es cierto, este decreto ya se encuentra derogado, los softwares de contabilidad suelen incluirlo a modo de referencia, y se recomienda su uso, porque a pesar de las modificaciones que ha sufrido la legislación, este sistema sigue siendo de gran utilidad y se considera uno de los pilares de la contabilidad en Colombia.
+      .col-lg-5(data-aos="fade-left")
         img(src='@/assets/curso/tema2/img3.png', alt='Texto que describa la imagen')
     .row.justify-content-center.mt-5
       .col-lg-8
@@ -192,44 +193,44 @@
       .col-lg-8
         p La mecánica utilizada para registrar los hechos económicos de la contabilidad, requiere de una preparación técnica que garantice un buen juicio en las situaciones que así lo requieran. Cada contabilización exige un nivel de conocimiento suficiente para que la información final no cuente con errores materiales o sesgos que nublen el juicio de los usuarios finales.
         p En primer lugar, es necesario presentar la clasificación general de las cuentas contables, puesto que es el primer criterio que debe aplicarse para reconocer un hecho económico. Las clases contables se dividen en las siguientes categorías:
-      .col-lg-4
+      .col-lg-4(data-aos="fade-left")
         img(src='@/assets/curso/tema2/img14.png', alt='Texto que describa la imagen')
-    TabsA.color-acento-contenido.mb-5.mt-4
+    TabsA.color-acento-contenido.mb-5.mt-4(data-aos="fade-up")
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Activo")
-        h4 Activo
-          .row
+        h5 Activo
+          .row.mt-3
             .col-lg-10
               p Agrupa los recursos que posee la entidad, representan un beneficio a futuro, bien sea porque son dinero disponible, o porque pueden transformarse en él tras la venta o recaudo. Ejemplo de estos son las cuentas bancarias, las cuentas por cobrar o los inventarios.
             .col-lg-2
-              img(src='@/assets/curso/tema2/ico2.svg', alt='Texto que describa la imagen')
+              img.tam3(src='@/assets/curso/tema2/ico2.svg', alt='Texto que describa la imagen')
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Pasivo")
-        h4 Pasivo
-          .row
+        h5 Pasivo
+          .row.mt-3
             .col-lg-10
               p.mb-5 Involucra todas las obligaciones que posee la empresa. En este sentido, implican la salida de dinero a futuro, por ejemplo los préstamos bancarios, las deudas con proveedores o los impuestos pendientes de pago.
             .col-lg-2
-              img(src='@/assets/curso/tema2/ico3.svg', alt='Texto que describa la imagen')
+              img.tam3(src='@/assets/curso/tema2/ico3.svg', alt='Texto que describa la imagen')
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Patrimonio")
-        h4 Patrimonio
-          .row
+        h5 Patrimonio
+          .row.mt-3
             .col-lg-10
               p.mb-5 Es el saldo resultante de los activos, una vez deducidos todos los pasivos. Como ejemplo práctico, si la empresa solo posee un inmueble (activo) pero para adquirirlo recurrió a un crédito hipotecario (pasivo), su patrimonio será equivalente al valor del inmueble menos el saldo del crédito hipotecario a una fecha determinada.
             .col-lg-2
-              img(src='@/assets/curso/tema2/ico4.svg', alt='Texto que describa la imagen')
+              img.tam3(src='@/assets/curso/tema2/ico4.svg', alt='Texto que describa la imagen')
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Ingresos")
-        h4 Ingresos
-          .row
+        h5 Ingresos
+          .row.mt-3
             .col-lg-10
               p Son los beneficios obtenidos a través de la operación u otras actividades complementarias. Es la forma más directa de incrementar el patrimonio, porque tienen incidencia directa en las utilidades, y por lo tanto en el crecimiento financiero de la compañía. El ejemplo más claro de ellos son los ingresos por la venta de bienes o la prestación de servicios, pero existen otros tipos como los intereses por ventas a crédito, las valorizaciones de las propiedades o la generación de rendimientos producto de inversiones.
             .col-lg-2
-              img(src='@/assets/curso/tema2/ico5.svg', alt='Texto que describa la imagen')
+              img.tam3(src='@/assets/curso/tema2/ico5.svg', alt='Texto que describa la imagen')
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Gastos")
-        h4 Gastos
-          .row
+        h5 Gastos
+          .row.mt-3
             .col-lg-10
               p Representan aquellas salidas de efectivo o disminución de activos necesarias para mantener la empresa operativa. Incluyen rubros de diversos tipos, como los son los pagos a los empleados, los intereses por endeudamiento o el costo de producción de los bienes.
             .col-lg-2
-              img(src='@/assets/curso/tema2/ico6.svg', alt='Texto que describa la imagen')
+              img.tam3(src='@/assets/curso/tema2/ico6.svg', alt='Texto que describa la imagen')
     p Una vez identificada la categoría a la cual corresponde el hecho económico a registrar, es importante aplicar el pilar fundamental de la dinámica contable: la partida doble. Esta puede resumirse en que todo registro debe tener una contraparte opuesta que mantenga una especie de equilibrio en la información financiera. Para cumplir con este sistema de contrapeso hay que establecer dos tipos de movimientos opuestos: el débito y el crédito, también conocidos como <strong>el debe y el haber.</strong>
     p Cada cuenta contable tendrá una naturaleza, en la que se verá incrementada con uno de estos movimientos y reducida con el opuesto. Para facilitar este aprendizaje, se presenta la naturaleza de las cuentas a nivel de clase, entendiendo que todos los subgrupos que pertenezcan a ella, por regla general siguen esta misma naturaleza:
     .row.justify-content-center.mt-4
@@ -270,7 +271,7 @@
                     td Gastos
                     td 5, 6 o 7
                     td Débito              
-          .col-lg-5
+          .col-lg-5(data-aos="fade-right")
             img(src='@/assets/curso/tema2/img15.png', alt='Texto que describa la imagen')
     p.mt-4 Por norma general, las cuentas del activo (todas las que su código inicia con el número 1, se ven incrementadas con los movimientos de naturaleza débito, mientras que los movimientos crédito las disminuyen.
     .row
@@ -296,70 +297,72 @@
                 td 100
                 td 
   
-      .col-lg-6
+      .col-lg-6(data-aos="fade-right")
         img(src='@/assets/curso/tema2/img16.png', alt='Texto que describa la imagen')
     p.mt-5 De acuerdo con la explicación, la contabilización se registra como una disminución en la cuenta de caja general (crédito), porque el dinero no está más allí, y un incremento de la cuenta de bancos (débito) que es a donde fue destinado. Este ejercicio es muy simple y ofrece un vistazo general de la dinámica de las cuentas y del cumplimiento de la partida doble. Sin importar el número de cuentas involucradas, al final, la suma de todos los registros en la columna débito debe ser equivalente a la suma de todos los registros en la columna crédito.
     separador
-    #t_2_4.titulo-segundo.color-acento-contenido
-      h2 2.4 Soportes
-    p El registro de cada transacción debe contar con una serie de soportes que garanticen la fiabilidad de la información. De esta forma, los soportes contables podrían enmarcarse en dos categorías:
-    ol.lista-ol--cuadro
-      li 
-        .lista-ol--cuadro__vineta
-          span 1
-        p <strong>Los del hecho económico:</strong> suelen tener procedencia externa, es decir, emitidos por terceros con los que se lleva a cabo la operación. Toda transacción suele venir acompañada de algún documento que formaliza la operación. <br>Algunos soportes del hecho económico son:
-    
-    .row.justify-content-center
-      .col-lg-10
-        .row
-          .col-lg-7
-            .titulo-sexto.color-acento-botones
-              h5 Figura 3
-              span  Soportes del hecho económico
-            img(src='@/assets/curso/tema2/img17.svg', alt='Texto que describa la imagen')
-          
-          .col-lg-5.mt-5      
-            img(src='@/assets/curso/tema2/img18.svg', alt='Texto que describa la imagen')
-    .row.justify-content-center.mt-5
-      .col-lg-10
-        .cajon.color-acento-contenido.p-4.mb-4
-          .h4 Nota
-          p Aunque la factura funciona como soporte, existen diversas metodologías aplicables a las transacciones, en una relación laboral, se conserva el contrato de trabajo y los desprendibles de nómina, en una consignación, el comprobante emitido por el cajero del banco. Cada operación debe provenir de algún soporte que permita verificar la fiabilidad de la información consignada en la contabilidad, de lo contrario podrían existir contabilizaciones erróneas que no puedan identificarse en el tiempo, lo que implica variaciones en la información presente y futura a entregar a los usuarios.
-    ol.lista-ol--cuadro
-      li 
-        .lista-ol--cuadro__vineta
-          span 1
-        p <strong>Los del registro contable:</strong>  suelen ser elaborados por la misma administración.<br>Si bien la dinámica contable es la misma sin importar las operaciones que se esperen registrar, los documentos que detallen el registro pueden variar según la naturaleza del hecho.<br><br> Algunos de ellos son:
-    .row.justify-content-center
-      .col-lg-10
-        .row
-          .col-lg-7
-            .titulo-sexto.color-acento-botones
-              h5 Figura 4
-              span  Soportes del hecho económico
-            img(src='@/assets/curso/tema2/img19.svg', alt='Texto que describa la imagen')
-          
-          .col-lg-5.mt-5      
-            img(src='@/assets/curso/tema2/img20.svg', alt='Texto que describa la imagen')
-    .row.justify-content-center.mt-5
-      .col-lg-10
-        .cajon.color-acento-contenido.p-4.mb-4
-          .h4 Nota
-          p los comprobantes contables se asocian a la operación que registran, de tal forma que se identifique el tipo de transacción con solo conocer el comprobante que se está usando. Así, los más comunes son los comprobantes de egreso, donde se registran los pagos efectuados por la empresa, las facturas de venta, que se asocian a la generación de ingresos, los comprobantes de nómina y provisiones, que involucran las operaciones por contrato laboral, y las notas de contabilidad que incluyen ajustes efectuados producto del juicio o criterio profesional, sin implicar necesariamente transacciones comerciales.
-    .row.justify-content-center
-      .col-lg-10.mt-4.colort222.p-3
-        p.text-center El ideal es que cada contabilización cuente con un soporte del registro y un soporte de la transacción.
-    p.mt-4 La variedad de comprobantes contables que contienen la información financiera de una empresa está sujeta a lo que el preparador de la información considere conveniente. Así, existen administradores que cuentan con decenas de documentos diferentes para cada naturaleza de transacción, y otros que hacen uso de uno o dos tipos para todas.
-    separador
+    .row.bg2
+      #t_2_4.titulo-segundo.color-acento-contenido
+        h2 2.4 Soportes
+      p El registro de cada transacción debe contar con una serie de soportes que garanticen la fiabilidad de la información. De esta forma, los soportes contables podrían enmarcarse en dos categorías:
+      ol.lista-ol--cuadro
+        li 
+          .lista-ol--cuadro__vineta
+            span 1
+          p <strong>Los del hecho económico:</strong> suelen tener procedencia externa, es decir, emitidos por terceros con los que se lleva a cabo la operación. Toda transacción suele venir acompañada de algún documento que formaliza la operación. <br>Algunos soportes del hecho económico son:
+      
+      .row.justify-content-center
+        .col-lg-10
+          .row
+            .col-lg-7
+              .titulo-sexto.color-acento-botones
+                h5 Figura 3
+                span  Soportes del hecho económico
+              img(src='@/assets/curso/tema2/img17.svg', alt='Texto que describa la imagen')
+            
+            .col-lg-5.mt-5      
+              img(src='@/assets/curso/tema2/img18.svg', alt='Texto que describa la imagen')
+      .row.justify-content-center.mt-5
+        .col-lg-10
+          .cajon.color-acento-contenido.p-4.mb-4
+            .h4 Nota
+            p Aunque la factura funciona como soporte, existen diversas metodologías aplicables a las transacciones, en una relación laboral, se conserva el contrato de trabajo y los desprendibles de nómina, en una consignación, el comprobante emitido por el cajero del banco. Cada operación debe provenir de algún soporte que permita verificar la fiabilidad de la información consignada en la contabilidad, de lo contrario podrían existir contabilizaciones erróneas que no puedan identificarse en el tiempo, lo que implica variaciones en la información presente y futura a entregar a los usuarios.
+      ol.lista-ol--cuadro
+        li 
+          .lista-ol--cuadro__vineta
+            span 2
+          p <strong>Los del registro contable:</strong>  suelen ser elaborados por la misma administración.<br>Si bien la dinámica contable es la misma sin importar las operaciones que se esperen registrar, los documentos que detallen el registro pueden variar según la naturaleza del hecho.<br><br> Algunos de ellos son:
+      .row.justify-content-center
+        .col-lg-10
+          .row
+            .col-lg-7
+              .titulo-sexto.color-acento-botones
+                h5 Figura 4
+                span  Soportes del hecho económico
+              img(src='@/assets/curso/tema2/img19.svg', alt='Texto que describa la imagen')
+            
+            .col-lg-5.mt-5(data-aos="fade-right")      
+              img(src='@/assets/curso/tema2/img20.svg', alt='Texto que describa la imagen')
+      .row.justify-content-center.mt-5
+        .col-lg-10
+          .cajon.color-acento-contenido.p-4.mb-4
+            .h4 Nota
+            p los comprobantes contables se asocian a la operación que registran, de tal forma que se identifique el tipo de transacción con solo conocer el comprobante que se está usando. Así, los más comunes son los comprobantes de egreso, donde se registran los pagos efectuados por la empresa, las facturas de venta, que se asocian a la generación de ingresos, los comprobantes de nómina y provisiones, que involucran las operaciones por contrato laboral, y las notas de contabilidad que incluyen ajustes efectuados producto del juicio o criterio profesional, sin implicar necesariamente transacciones comerciales.
+      .row.justify-content-center
+        .col-lg-10.mt-4.colort222.p-3
+          p.text-center El ideal es que cada contabilización cuente con un soporte del registro y un soporte de la transacción.
+      p.mt-4 La variedad de comprobantes contables que contienen la información financiera de una empresa está sujeta a lo que el preparador de la información considere conveniente. Así, existen administradores que cuentan con decenas de documentos diferentes para cada naturaleza de transacción, y otros que hacen uso de uno o dos tipos para todas.
+      separador
     #t_2_5.titulo-segundo.color-acento-contenido
       h2 2.5 Títulos valores
     .row
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         img(src='@/assets/curso/tema2/img21.png', alt='Texto que describa la imagen')
-      .col-lg-7
+      .col-lg-7.mt-2
         p En el ámbito comercial, todas las operaciones suelen involucrar por lo menos dos partes. Para que alguien pueda vender algún bien, otro debe estar interesado en adquirirlo, esta norma implícita de los negocios lleva a que cada parte tenga algo para dar a cambio. Los títulos valores entran en la ecuación como un elemento que ofrece garantías para las partes. Estos documentos suelen contener un derecho literal que se le otorga a su poseedor, y que podrá hacerlo exigible a quien lo firma según las condiciones pactadas.
-        p Esto significa que es una promesa o garantía que quien elabora y firma le entrega a aquel que recibe. Este derecho se encuentra respaldado por la legislación, lo que implica que en caso de no cumplir con lo pactado, el tenedor del título valor puede solicitar apoyo judicial.
-        p Los títulos valores surgen como una herramienta que enriquece las operaciones comerciales, al otorgarles más posibilidades a los partícipes. Así, los bancos hacen que sus clientes firmen pagarés al otorgarles un crédito, para garantizar el pago de forma oportuna de esta obligación, de la misma manera se pueden elaborar letras de cambio entre dos particulares. Los certificados de depósito garantizan que los dineros consignados están respaldados y serán devueltos en una fecha específica.
+        .row.bgja.p-2
+          p Esto significa que es una promesa o garantía que quien elabora y firma le entrega a aquel que recibe. Este derecho se encuentra respaldado por la legislación, lo que implica que en caso de no cumplir con lo pactado, el tenedor del título valor puede solicitar apoyo judicial.
+        p.mt-2 Los títulos valores surgen como una herramienta que enriquece las operaciones comerciales, al otorgarles más posibilidades a los partícipes. Así, los bancos hacen que sus clientes firmen pagarés al otorgarles un crédito, para garantizar el pago de forma oportuna de esta obligación, de la misma manera se pueden elaborar letras de cambio entre dos particulares. Los certificados de depósito garantizan que los dineros consignados están respaldados y serán devueltos en una fecha específica.
     .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.asa
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img22.png')})`}"
@@ -376,13 +379,13 @@
       .col-lg-7
         p La disciplina contable es uno de los instrumentos de control más importantes que tienen las entidades de vigilancia del Estado para evaluar la situación financiera de las empresas y los aportes que hacen a la Nación a través de los impuestos. Por eso, la aplicación se encuentra fuertemente regulada desde el ámbito financiero y el tributario.
         p En lo que respecta a la normativa contable, Colombia inició un proceso de convergencia con el decreto 1314 de 2009, en el cual se indica que por motivos de la globalización y la apertura de mercados, el país debía iniciar con la aplicación de sistemas de contabilidad que tuvieran aplicación en un amplio número de naciones, de tal forma que posibilita la inversión extranjera y favorece los flujos de capital del país.
-      .col-lg-5
+      .col-lg-5(data-aos="fade-right")
         img(src='@/assets/curso/tema2/img23.png', alt='Texto que describa la imagen')
     p.mt-4 El sistema seleccionado fueron las Normas Internacionales de Información Financiera – NIIF. Estas fueron emitidas por el comité de estándares internacionales (IASB, por sus siglas en inglés), y son aplicadas en la actualidad en más de 140 países. También se emitió un estándar simplificado llamado NIIF para PYMES, aplicable a las organizaciones que cumplieran una serie de requisitos entre los que destacaba no cotizar en mercados bursátiles.
     p Colombia adoptó las normas creando tres grandes grupos, el de las empresas de interés público (NIIF Plenas) el de las pequeñas y medianas empresas (NIIF para PYMES) y el de las microempresas (contabilidad simplificada). En la actualidad, el decreto 2420 de 2015 y sus reglamentarios, siguen vigentes y presentan la disposición de los tres grupos y las normas aplicables.
     .row.justify-content-center.mt-5
       .col-lg-8
-        .row.colort2222.p-5
+        .row.colort2222.p-5.sombra
           .col-lg-2
             img.tamimg1(src='@/assets/curso/tema2/ico7.svg', alt='Texto que describa la imagen')
           .col-lg-10
@@ -473,11 +476,38 @@ export default {
 .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.asa
   .bloque-texto-g__img
     left: 50%
+    @media screen and ( max-width: 420px)
+      left: 0%
   .bloque-texto-g__texto
     right: 40%
+    @media screen and ( max-width: 420px)
+      right: 0%
 .slyder-b.mb-5.mt-5
   background-color: #E8E8E8
   border-radius: 20px
 .slyder-b.mb-5.mt-5 h3
   font-size: 16px
+.tarjeta.color-primario
+  background-color: #F3F4DB
+.boton.color-acento-botones *, .color-acento-botones.boton--sm *
+  color: black!important
+.slyder-a__bullets__item--active
+  background-color: #9A9A9A!important
+  border-color: #9A9A9A!important
+.slyder-a__bullets__item
+  background-color: #D2C7CA
+  border-color: #D2C7CA
+.cajon.color-acento-contenido
+  background-color: #F3F4DB
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+    @media screen and ( max-width: 420px)
+      width: 10%
+      height: 30px
+@media (max-width: $bp-max-xs)
+  .slyder-a__bullets__item
+	  margin: 0 6px
+.slyder-a__bullets__item
+	margin: 0 3px
+  width: 12px
+  height: 12px
 </style>
