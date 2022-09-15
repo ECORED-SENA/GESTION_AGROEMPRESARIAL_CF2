@@ -485,4 +485,6 @@ export default {
   color: #12263F
 .tarjeta.color-primario
   background-color: #F3F4DB
+.img-infografica__item, .img-infografica-b__item
+  width: 5.5%
 </style>

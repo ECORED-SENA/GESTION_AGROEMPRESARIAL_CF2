@@ -6,41 +6,43 @@
       .titulo-principal__numero
         span 2
       h1 Contabilidad
-    .row.mt-5
-      .col-lg-7
-        p La administración adecuada de cualquier empresa requiere de conocimientos sobre cada una de sus operaciones, de lo contrario, la mayoría de las decisiones obedecen a creencias o intuiciones, lo que no permitiría la evolución esperada de cualquier empresa o negocio. La medición del crecimiento también es muy importante para tener claridad si se han alcanzado las expectativas o si el desarrollo se ha visto afectado por diversos factores. Una gestión adecuada demanda como mínimo:
-        ol.lista-ol--cuadro
-          li 
-            .lista-ol--cuadro__vineta
-              span 1
-            | Comprender los elementos (involucrados con los recursos disponibles).
-          li 
-            .lista-ol--cuadro__vineta
-              span 2
-            | El costo de elaboración (o adquisición de los bienes o servicios que se esperan vender).
+    .row.bg5
+      .row.mt-5
+        .col-lg-7
+          p La administración adecuada de cualquier empresa requiere de conocimientos sobre cada una de sus operaciones, de lo contrario, la mayoría de las decisiones obedecen a creencias o intuiciones, lo que no permitiría la evolución esperada de cualquier empresa o negocio. La medición del crecimiento también es muy importante para tener claridad si se han alcanzado las expectativas o si el desarrollo se ha visto afectado por diversos factores. Una gestión adecuada demanda como mínimo:
+          ol.lista-ol--cuadro
+            li 
+              .lista-ol--cuadro__vineta
+                span 1
+              | Comprender los elementos (involucrados con los recursos disponibles).
+            li 
+              .lista-ol--cuadro__vineta
+                span 2
+              | El costo de elaboración (o adquisición de los bienes o servicios que se esperan vender).
 
-          li 
-            .lista-ol--cuadro__vineta
-              span 3
-            | El precio de venta (que la gente está dispuesta a pagar para adquirirlos).
-        p Es allí donde la contabilidad surge como una herramienta que permite registrar, medir y llevar control de todos estos elementos que pueden traducirse en dinero. Desde el capital inicial, la contabilidad ofrece el seguimiento sobre cómo se obtienen los recursos y en qué se destinan. Es gracias a ella que las empresas comprenden cuántos bienes poseen, cuántas deudas acarrean y cuál es el excedente que obtienen tras la operación. 
-      .col-lg-5(data-aos="fade-left")
-        img(src='@/assets/curso/tema2/img1.png', alt='Texto que describa la imagen')
-    .row.justify-content-center.mt-4
-      .col-lg-10.colort2.p-3
-        p.text-center Esta disciplina ha evolucionado para adaptarse a las necesidades del mercado actual, y su complejidad puede ser tan profunda como lo requiera cada emprendimiento o negocio. Todo establecimiento de comercio o sociedad se encuentra obligada a llevarla, puesto que no solo se erige como una de las principales herramientas de la gestión organizacional, sino que resulta ser un instrumento de control para las autoridades, que la pueden usar como prueba a favor o en contra de quien la lleva.
-    separador
-    #t_2_1.titulo-segundo.color-acento-contenido
-      h2 2.1 Cuentas contables
-    p La aplicación de la contabilidad requiere el uso de cuentas contables; estas funcionan como secciones o categorías que contienen a su vez otras más pequeñas, podrían asimilarse como contenedores que tienen otros más pequeños en su interior, y así hasta el nivel de detalle que se desee. En un ambiente práctico, la categoría de cada rubro se determina por el número de dígitos, lo que significa que entre más dígitos contenga, más específica será.
-    p A modo de ejemplo, la cuenta 1105 pertenece a una categoría superior, es decir a la 11, quien a su vez, pertenece a otra categoría: la 1. El siguiente diagrama resume esta mecánica de forma gráfica y de más fácil asimilación:
-    .titulo-sexto.color-acento-botones.mt-5
-      h5 Figura 2
-      span   Mecánica de las cuentas contables
-    .row.justify-content-center
-      .col-lg-6(data-aos="fade-up-right")
-        img(src='@/assets/curso/tema2/img2.svg', alt='Texto que describa la imagen')
-    p.mt-4 Como se observa, a mayor categoría, más cuentas se encuentran involucradas, de esta forma el nivel de detalle puede ser tan preciso como cada usuario de la información lo requiera. Ahora, la estructura dispuesta cumple con una jerarquía, la cual se presenta a continuación a través de un ejemplo.
+            li 
+              .lista-ol--cuadro__vineta
+                span 3
+              | El precio de venta (que la gente está dispuesta a pagar para adquirirlos).
+          p Es allí donde la contabilidad surge como una herramienta que permite registrar, medir y llevar control de todos estos elementos que pueden traducirse en dinero. Desde el capital inicial, la contabilidad ofrece el seguimiento sobre cómo se obtienen los recursos y en qué se destinan. Es gracias a ella que las empresas comprenden cuántos bienes poseen, cuántas deudas acarrean y cuál es el excedente que obtienen tras la operación. 
+        .col-lg-5(data-aos="fade-left")
+          img(src='@/assets/curso/tema2/img1.png', alt='Texto que describa la imagen')
+      .row.justify-content-center.mt-4
+        .col-lg-10.colort2.p-3
+          p.text-center Esta disciplina ha evolucionado para adaptarse a las necesidades del mercado actual, y su complejidad puede ser tan profunda como lo requiera cada emprendimiento o negocio. Todo establecimiento de comercio o sociedad se encuentra obligada a llevarla, puesto que no solo se erige como una de las principales herramientas de la gestión organizacional, sino que resulta ser un instrumento de control para las autoridades, que la pueden usar como prueba a favor o en contra de quien la lleva.
+      separador
+      #t_2_1.titulo-segundo.color-acento-contenido
+        h2 2.1 Cuentas contables
+      p La aplicación de la contabilidad requiere el uso de cuentas contables; estas funcionan como secciones o categorías que contienen a su vez otras más pequeñas, podrían asimilarse como contenedores que tienen otros más pequeños en su interior, y así hasta el nivel de detalle que se desee. En un ambiente práctico, la categoría de cada rubro se determina por el número de dígitos, lo que significa que entre más dígitos contenga, más específica será.
+      p A modo de ejemplo, la cuenta 1105 pertenece a una categoría superior, es decir a la 11, quien a su vez, pertenece a otra categoría: la 1. El siguiente diagrama resume esta mecánica de forma gráfica y de más fácil asimilación:
+      .titulo-sexto.color-acento-botones.mt-5
+        h5 Figura 2
+        span   Mecánica de las cuentas contables
+      .row.justify-content-center
+        .col-lg-6(data-aos="fade-up-right")
+          img(src='@/assets/curso/tema2/img2.svg', alt='Texto que describa la imagen')
+      p.mt-4 Como se observa, a mayor categoría, más cuentas se encuentran involucradas, de esta forma el nivel de detalle puede ser tan preciso como cada usuario de la información lo requiera. Ahora, la estructura dispuesta cumple con una jerarquía, la cual se presenta a continuación a través de un ejemplo.
+      
     .row.justify-content-center
       .col-lg-10
         .titulo-sexto.color-acento-botones.mt-5
@@ -240,7 +242,7 @@
             .titulo-sexto.color-acento-botones
               h5 Tabla 3
               span  Naturaleza de las clases contables
-            .tabla-a.color-primario.mb-5 
+            .tabla-a.color-primario.mb-5.aq 
               table
                 thead
                   tr
@@ -275,12 +277,19 @@
             img(src='@/assets/curso/tema2/img15.png', alt='Texto que describa la imagen')
     p.mt-4 Por norma general, las cuentas del activo (todas las que su código inicia con el número 1, se ven incrementadas con los movimientos de naturaleza débito, mientras que los movimientos crédito las disminuyen.
     .row
+      .col-lg-2
+        .row.align-items-center.bg6
+          .col-lg-3
+            img.wiki(src='@/assets/curso/ico1.svg', alt='Texto que describa la imagen')
+          .col-lg-9.mt-3
+            h4 Caso práctico:
+    .row.mt-4
       .col-lg-6
         p <strong>Caso práctico:</strong> suponga que una persona toma $100 dólares (USD) disponibles de la caja general y los consigna en la cuenta bancaria. El registro contable se presentaría de la siguiente forma:
         .titulo-sexto.color-acento-botones
           h5 Tabla 4 
           span Ejemplo de dinámica contable
-        .tabla-a.color-primario.mb-5 
+        .tabla-a.color-primario.mb-5.aq
           table
             thead
               tr
@@ -315,10 +324,16 @@
         .col-lg-10
           .row
             .col-lg-7
-              .titulo-sexto.color-acento-botones
-                h5 Figura 3
-                span  Soportes del hecho económico
-              img(src='@/assets/curso/tema2/img17.svg', alt='Texto que describa la imagen')
+              .row
+                .col-lg-6
+                  .titulo-sexto.color-acento-botones
+                    h5 Figura 3
+                    span  Soportes del hecho económico
+                  img(src='@/assets/curso/tema2/img17.svg', alt='Texto que describa la imagen')
+                .col-lg-6.mt-5
+                  .row.bf.p-2.align-content-center
+                    h5.text-center Ejemplo
+                  p.mt-4 Al comprar unos zapatos, se recibe una factura de venta que incluye la referencia adquirida, el número de unidades, y el valor, entre otros. Este documento funciona como una prueba que se hizo la compra, si los zapatos son revendidos posteriormente, no servirán como evidencia, sin embargo el documento se conservará durante el paso del tiempo.
             
             .col-lg-5.mt-5      
               img(src='@/assets/curso/tema2/img18.svg', alt='Texto que describa la imagen')
@@ -336,10 +351,16 @@
         .col-lg-10
           .row
             .col-lg-7
-              .titulo-sexto.color-acento-botones
-                h5 Figura 4
-                span  Soportes del hecho económico
-              img(src='@/assets/curso/tema2/img19.svg', alt='Texto que describa la imagen')
+              .row
+                .col-lg-6
+                  .titulo-sexto.color-acento-botones
+                    h5 Figura 4
+                    span  Soportes del hecho económico
+                  img(src='@/assets/curso/tema2/a.svg', alt='Texto que describa la imagen')
+                .col-lg-6.mt-5
+                  .row.bf.p-2.align-content-center
+                    h5.text-center Ejemplo
+                  p.mt-4 La información se contabiliza a través de los comprobantes de contabilidad; un documento comercial que sustenta los registros que lleva la empresa internamente y que afectan los saldos de las cuentas. Los comprobantes contables se asocian a la operación que registran, de tal forma que se identifique el tipo de transacción con solo conocer el comprobante que se está usando.
             
             .col-lg-5.mt-5(data-aos="fade-right")      
               img(src='@/assets/curso/tema2/img20.svg', alt='Texto que describa la imagen')

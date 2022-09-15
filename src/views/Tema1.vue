@@ -9,7 +9,7 @@
       h1 Empresas
     .row.bg1
       p Podemos definir el concepto de ‘empresa’ como: un organismo individual económico, porque interactúa con otros y con el ecosistema. Una empresa puede tomar muchas formas comerciales o jurídicas, pero sólo se considera como empresa si los elementos que la componen se enfocan a un mismo objetivo: suplir una necesidad de un mercado en específico y recibir una contraprestación para ella.
-      img(data-aos="zoom-in")(src='@/assets/curso/tema1/img1.png', alt='Texto que describa la imagen')
+      img(data-aos="zoom-in")(src='@/assets/curso/tema1/img1.jpg', alt='Texto que describa la imagen')
       p.mt-4 Las empresas buscan aportar al ecosistema económico y, como recompensa, generar mayor valor para sus propietarios. Por ejemplo, si en un pueblo no hay tiendas de zapatos, aquel que invierta lo necesario para ofrecer este tipo de productos le otorgará la posibilidad de adquirir bienes de interés a sus habitantes y, a cambio, sus clientes le pagarán con recursos que generarán utilidades.
       .row.justify-content-center
         .col-lg-8.p-4.colort1
@@ -31,7 +31,7 @@
       .cajon.color-acento-contenido.p-4.mb-4
         .row.justify-content-center
           .col-lg-11
-            .row
+            .row.align-items-center
               .col-lg-2.tam1
                 img(src='@/assets/curso/tema1/img3.svg', alt='Texto que describa la imagen')
               .col-lg-10.mt-2
