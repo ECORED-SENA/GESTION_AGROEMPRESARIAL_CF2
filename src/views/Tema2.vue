@@ -277,15 +277,15 @@
             img(src='@/assets/curso/tema2/img15.png', alt='Texto que describa la imagen')
     p.mt-4 Por norma general, las cuentas del activo (todas las que su código inicia con el número 1, se ven incrementadas con los movimientos de naturaleza débito, mientras que los movimientos crédito las disminuyen.
     .row
-      .col-lg-2
+      .col-lg-3
         .row.align-items-center.bg6
-          .col-lg-3
+          .col-lg-4
             img.wiki(src='@/assets/curso/ico1.svg', alt='Texto que describa la imagen')
-          .col-lg-9.mt-3
+          .col-lg-8.mt-3.mq
             h4 Caso práctico:
     .row.mt-4
       .col-lg-6
-        p <strong>Caso práctico:</strong> suponga que una persona toma $100 dólares (USD) disponibles de la caja general y los consigna en la cuenta bancaria. El registro contable se presentaría de la siguiente forma:
+        p Suponga que una persona toma $100 dólares (USD) disponibles de la caja general y los consigna en la cuenta bancaria. El registro contable se presentaría de la siguiente forma:
         .titulo-sexto.color-acento-botones
           h5 Tabla 4 
           span Ejemplo de dinámica contable
@@ -331,8 +331,9 @@
                     span  Soportes del hecho económico
                   img(src='@/assets/curso/tema2/img17.svg', alt='Texto que describa la imagen')
                 .col-lg-6.mt-5
-                  .row.bf.p-2.align-content-center
-                    h5.text-center Ejemplo
+                  .row.mt-2
+                  .row.bf.p-1.align-content-center.mt-4
+                    h5.text-center.mt-2 Ejemplo
                   p.mt-4 Al comprar unos zapatos, se recibe una factura de venta que incluye la referencia adquirida, el número de unidades, y el valor, entre otros. Este documento funciona como una prueba que se hizo la compra, si los zapatos son revendidos posteriormente, no servirán como evidencia, sin embargo el documento se conservará durante el paso del tiempo.
             
             .col-lg-5.mt-5      
@@ -358,8 +359,9 @@
                     span  Soportes del hecho económico
                   img(src='@/assets/curso/tema2/a.svg', alt='Texto que describa la imagen')
                 .col-lg-6.mt-5
-                  .row.bf.p-2.align-content-center
-                    h5.text-center Ejemplo
+                  .row.mt-2
+                  .row.bf.p-1.align-content-center.mt-4
+                    h5.text-center.mt-2 Ejemplo
                   p.mt-4 La información se contabiliza a través de los comprobantes de contabilidad; un documento comercial que sustenta los registros que lleva la empresa internamente y que afectan los saldos de las cuentas. Los comprobantes contables se asocian a la operación que registran, de tal forma que se identifique el tipo de transacción con solo conocer el comprobante que se está usando.
             
             .col-lg-5.mt-5(data-aos="fade-right")      
