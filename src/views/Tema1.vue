@@ -24,9 +24,7 @@
               img(src='@/assets/curso/tema1/img2.png', alt='Texto que describa la imagen')
       p.mt-4 Muchos conceptos relacionados con las empresas están definidos en las leyes expedidas en Colombia. En este caso, veamos el código de comercio, que compila las normas relativas a la empresa y sus actividades mercantiles:
       img(data-aos="zoom-in")(src='@/assets/curso/tema1/img3.png', alt='Texto que describa la imagen')
-      p.mt-4 El Estado también se beneficia de estos organismos, debido a que existen impuestos con los que el gobierno obtiene recursos suficientes para invertir en proyectos de inversión social, infraestructura y otros. Al final, los impuestos que pagan las empresas se pueden transformar en hospitales, escuelas o parques que benefician a toda la población.
       
-    p Muchos conceptos relacionados con las empresas están definidos en las leyes expedidas en Colombia. En este caso, veamos el código de comercio, que compila las normas relativas a la empresa y sus actividades mercantiles:
     .col-lg-12.mt-4
       .cajon.color-acento-contenido.p-4.mb-4
         .row.justify-content-center
@@ -49,7 +47,7 @@
     figure.mb-5(data-aos="zoom-in")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/khgdhpM6zx0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    p.mt-5 Profundice en los aspectos clave de las clasificación de las empresas y la conformación de las sociedades comerciales y del orden empresarial; observe con atención el vídeo que se muestra enseguida. Procure llevar registro de lo más destacado en su libreta personal de apuntes. ¡Adelante!
+    p.mt-5 Profundice en los aspectos clave de la clasificación de las empresas y la conformación de las sociedades comerciales y del orden empresarial; observe con atención el vídeo que se muestra enseguida. Procure llevar registro de lo más destacado en su libreta personal de apuntes. ¡Adelante!
     figure.mb-5(data-aos="zoom-in")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/aOUKzNrTLPE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)    
@@ -89,14 +87,14 @@
             td Mayores a 1’736.565.
             td Mayores a 483.034.
             td Mayores a 2.160.692.
-    p <i>Nota. elaboración a partir del decreto 957 del Ministerio de Comercio, Industria y Turismo (2019).</i>
+    p <i>Nota. Elaboración a partir del decreto 957 del Ministerio de Comercio, Industria y Turismo (2019).</i>
     .row.justify-content-center
       .col-lg-8
         .cajon.color-acento-contenido.p-4.mb-4
           p Con respecto a las UVT (Unidad de Valor Real), es de aclarar que es un sistema utilizado por el gobierno para mantener los valores actualizados a la situación económica del país, así el valor al que equivale una UVT se actualiza cada año a través de una norma. Para el año 2022, su valor es equivalente a $ 38.004. 
     separador
     #t_1_2.titulo-segundo.color-acento-contenido
-      h2 1.2  Clasificación
+      h2 1.2  Constitución
     p Contrario a la creencia popular, llevar a cabo una actividad productiva no solo requiere contar con los recursos y el conocimiento para hacerlo. Existen obligaciones de tipo formal dispuestas en la legislación, dirigidas principalmente a otorgar la información necesaria al Estado para ejercer control y recaudar los tributos que le corresponden. Por lo anterior, se escucha frecuentemente en los medios de comunicación términos como “negocios informales” o “empleo informal”, lo que básicamente se resume en actividades que se desarrollan sin cumplir con las exigencias de ley.
     .row.mt-5
       .col-lg-7
@@ -144,7 +142,7 @@
       .col-lg-8
         .cajon.color-acento-contenido.p-4.mb-4
           h4 Nota
-          p los porcentajes y participaciones pueden variar en función de aquellos socios que aporten más o menos.
+          p Los porcentajes y participaciones pueden variar en función de aquellos socios que aporten más o menos.
     .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5(data-aos="fade-up-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img7.png')})`}"

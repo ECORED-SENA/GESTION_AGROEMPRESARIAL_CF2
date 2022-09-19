@@ -50,14 +50,14 @@
                 p.mb-5 Grava la existencia misma de un predio, por lo que la obligación sustancial recae sobre su titular o poseedor. Incluye tanto los terrenos como las construcciones y edificaciones que se hagan sobre ellos. La base gravable es el avalúo catastral y su tarifa varía entre municipios.
               .col-lg-4
                 img(src='@/assets/curso/tema4/img10.png', alt='Texto que describa la imagen')
-        .tarjeta.color-acento-contenido--borde.p-4(titulo="Impuesto predial")
+        .tarjeta.color-acento-contenido--borde.p-4(titulo="Impuesto de industria y comercio")
           h5 Impuesto de industria y comercio
             .row.mt-4
               .col-lg-8
                 p.mb-5 Su base gravable son todos los ingresos ordinarios y extraordinarios que perciben las personas naturales y jurídicas, principalmente por las actividades de tipo comercial, industrial y de servicios. La tarifa dependerá de la actividad económica según las reglas que determine cada municipio.
               .col-lg-4
                 img(src='@/assets/curso/tema4/img11.png', alt='Texto que describa la imagen')
-        .tarjeta.color-acento-contenido--borde.p-4(titulo="Impuesto predial")
+        .tarjeta.color-acento-contenido--borde.p-4(titulo="Impuesto de vehículos ")
           h5 Impuesto de vehículos 
             .row.mt-4
               .col-lg-8

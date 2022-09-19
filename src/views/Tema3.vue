@@ -346,7 +346,7 @@
         .row
           .col-lg-7
             p La elaboración del <strong>Estado de Resultados</strong> resulta esencialmente la misma del estado de situación financiera, se presenta de forma vertical incluyendo los ingresos y egresos en los que incurrió la empresa hasta llegar a una utilidad o pérdida del ejercicio.
-            p La forma en la que se recomienda presentar este informe es: primero los ingresos costos y gastos asociados de forma directa con la operación. Son aquellos que surgen en el desarrollo normal de los negocios de la empresa. Posteriormente se incluyen otros ingresos y gastos no operativos, y el valor de los impuestos que acarrea esta utilidad.
+            p La forma en la que se recomienda presentar este informe es: primero los ingresos, costos y gastos asociados de forma directa con la operación. Son aquellos que surgen en el desarrollo normal de los negocios de la empresa. Posteriormente se incluyen otros ingresos y gastos no operativos, y el valor de los impuestos que acarrea esta utilidad.
           .col-lg-5(data-aos="fade-left")
             img(src='@/assets/curso/tema3/img7.svg' alt='AvatarTop')
     ol.lista-ol--cuadro.lista-ol--separador.mt-5
@@ -452,7 +452,7 @@
 
               .tarjeta.color-primario.sombra
                 .p-4
-                  h5 Gastos
+                  h5 Gastos de venta
                   p Se relacionan de forma directa con el área comercial. Por ejemplo, los salarios de los vendedores, sus comisiones o las expensas por publicidad.
 
 </template>

@@ -84,7 +84,7 @@
         p Una vez se tiene clara la metodología en la que se hace uso de las cuentas contables, es fundamental entender el uso de la codificación, que es: el uso de números para identificar cada rubro.
         .row.bgaq.p-2
           p La codificación (con números) es necesaria porque es mucho más práctico identificar la categoría superior haciendo uso de caracteres numéricos, en lugar de alfabéticos (letras). Entendiendo la mecánica descrita anteriormente, cualquier persona sin conocimientos muy profundos de contabilidad podrá comprender que la cuenta 1435, pertenece al grupo 14 de la clase 1.
-        p.mt-2 El listado códigos aplicables para cada cuenta contable en Colombia fue presentado en el decreto 2650 de 1993, y con él se buscaba la estandarización de los códigos, de tal forma que el código signifique lo mismo en todas las empresas sin importar su actividad o ubicación geográfica en el país. Si bien es cierto, este decreto ya se encuentra derogado, los softwares de contabilidad suelen incluirlo a modo de referencia, y se recomienda su uso, porque a pesar de las modificaciones que ha sufrido la legislación, este sistema sigue siendo de gran utilidad y se considera uno de los pilares de la contabilidad en Colombia.
+        p.mt-2 El listado códigos aplicables para cada cuenta contable en Colombia fue presentado en el decreto 2650 de 1993, y con él se buscaba la estandarización de los códigos, de tal forma que el código signifique lo mismo en todas las empresas sin importar su actividad o ubicación geográfica en el país. Si bien es cierto, este decreto ya se encuentra derogado, los <i>softwares</i> de contabilidad suelen incluirlo a modo de referencia, y se recomienda su uso, porque a pesar de las modificaciones que ha sufrido la legislación, este sistema sigue siendo de gran utilidad y se considera uno de los pilares de la contabilidad en Colombia.
       .col-lg-5(data-aos="fade-left")
         img(src='@/assets/curso/tema2/img3.png', alt='Texto que describa la imagen')
     .row.justify-content-center.mt-5
@@ -356,7 +356,7 @@
                 .col-lg-6
                   .titulo-sexto.color-acento-botones
                     h5 Figura 4
-                    span  Soportes del hecho económico
+                    span  Soportes del registro contable
                   img(src='@/assets/curso/tema2/a.svg', alt='Texto que describa la imagen')
                 .col-lg-6.mt-5
                   .row.mt-2
@@ -370,7 +370,7 @@
         .col-lg-10
           .cajon.color-acento-contenido.p-4.mb-4
             .h4 Nota
-            p los comprobantes contables se asocian a la operación que registran, de tal forma que se identifique el tipo de transacción con solo conocer el comprobante que se está usando. Así, los más comunes son los comprobantes de egreso, donde se registran los pagos efectuados por la empresa, las facturas de venta, que se asocian a la generación de ingresos, los comprobantes de nómina y provisiones, que involucran las operaciones por contrato laboral, y las notas de contabilidad que incluyen ajustes efectuados producto del juicio o criterio profesional, sin implicar necesariamente transacciones comerciales.
+            p Los comprobantes contables se asocian a la operación que registran, de tal forma que se identifique el tipo de transacción con solo conocer el comprobante que se está usando. Así, los más comunes son los comprobantes de egreso, donde se registran los pagos efectuados por la empresa, las facturas de venta, que se asocian a la generación de ingresos, los comprobantes de nómina y provisiones, que involucran las operaciones por contrato laboral, y las notas de contabilidad que incluyen ajustes efectuados producto del juicio o criterio profesional, sin implicar necesariamente transacciones comerciales.
       .row.justify-content-center
         .col-lg-10.mt-4.colort222.p-3
           p.text-center El ideal es que cada contabilización cuente con un soporte del registro y un soporte de la transacción.
